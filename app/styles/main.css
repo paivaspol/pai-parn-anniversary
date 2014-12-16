@@ -38,6 +38,14 @@ div, p {
   background-size: cover;
 }
 
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .heading {
+    background-attachment: scroll;
+  }
+}
+
+
+
 .head-line {
   width: 70%;
   margin: 32% auto 0px auto;
