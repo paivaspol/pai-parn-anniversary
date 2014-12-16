@@ -1,3 +1,4 @@
 /* CSS file for importing fonts. */
 @import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
 @import url(http://fonts.googleapis.com/css?family=Indie+Flower); /* Cursive */
+@import url(../fonts/thai-font.css);

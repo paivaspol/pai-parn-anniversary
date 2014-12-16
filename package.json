@@ -1,7 +1,9 @@
 {
   "name": "paiparnanniversary",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "image-min": "^0.3.2"
+  },
   "devDependencies": {
     "grunt": "^0.4.1",
     "grunt-autoprefixer": "^0.7.3",
