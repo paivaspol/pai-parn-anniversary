@@ -38,14 +38,6 @@ div, p {
   background-size: cover;
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-  .heading {
-    background-attachment: scroll;
-  }
-}
-
-
-
 .head-line {
   width: 70%;
   margin: 32% auto 0px auto;
@@ -161,4 +153,25 @@ div, p {
   font-family: 'book_akhanakeregular', 'Indie Flower', cursive;
   font-size: 1.8em;
   color: gray;
+}
+
+/* Webkit mobile fix. */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .heading, .forever {
+    background-attachment: scroll;
+  }
+}
+
+/* iPhone 6 */
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+  .heading, .forever {
+    background-attachment: scroll;
+  } 
+}
+
+/* iPhone 5 and 5s */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+  .heading, .forever {
+    background-attachment: scroll;
+  }   
 }
