@@ -62,7 +62,7 @@ angular.module('paiParnAnniversaryApp')
         },
         {
             date: '14/2/2014',
-            title: 'You\'ve got main.',
+            title: 'You\'ve got mail.',
             description: 'ป่านส่งของขวัญวันวาเลนไทน์มาให้ เป็นจรวดกระดาษ พร้อมข้อความซึ้งๆข้างใน',
             imgPath: 'images/valentines-parn.jpg'
         },
