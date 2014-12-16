@@ -38,19 +38,19 @@ angular.module('paiParnAnniversaryApp')
     $scope.eventsRaw = [
         {
             date: '16/12/2013',
-            title: 'จุดเริ่มต้น :)',
+            title: 'วันที่ 1 :)',
             description: 'วันแรกของปีที่เรามีความสุขที่สุดปีหนึ่งของเรา ขอบคุณนะที่ตอบตกลงในวันนั้น :)',
             imgPath: 'images/beginning.jpg'
         },
         {
             date: '20/12/2013',
             title: 'Christmas',
-            description: 'Christmas',
+            description: 'วันนั้นเราไปเดินเล่นกันที่ CTW แล้วก็ไปถ่ายรูปกับต้นคริสมาสต์ใหญ่ๆหน้า CTW :3',
             imgPath: 'images/christmas.jpg'
         },
         {
             date: '3/1/2014',
-            title: 'เอเชียทีค',
+            title: 'ชิงช้าสวรรค์',
             description: 'วันนั้นเราไปเดินเล่นที่ Asiatique กัน แล้วก็ขึ้นชิงช้าสวรรค์กันด้วย',
             imgPath: 'images/asiatique.jpg'
         },
@@ -62,7 +62,7 @@ angular.module('paiParnAnniversaryApp')
         },
         {
             date: '14/2/2014',
-            title: 'สุภาพสตรีไปรษณีย์',
+            title: 'You\'ve got main.',
             description: 'ป่านส่งของขวัญวันวาเลนไทน์มาให้ เป็นจรวดกระดาษ พร้อมข้อความซึ้งๆข้างใน',
             imgPath: 'images/valentines-parn.jpg'
         },
@@ -81,14 +81,8 @@ angular.module('paiParnAnniversaryApp')
         {
             date: '15/12/2014',
             title: '364 Days...',
-            description: 'วันนั้นเป็นวันที่เราคบกันได้ 364 วัน พรุ่งนี้เราก็จะครบหนึ่งปีแล้ว :)',
+            description: 'วันนั้นเป็นวันที่เราคบกันได้ 364 วัน วันนี้เป็นวันที่เราเพิ่งกลับมาจากอเมริกา แล้วก็รีบมาหาป่านเลย พรุ่งนี้เราก็จะครบหนึ่งปีแล้ว :)',
             imgPath: 'images/364.jpg'
-        },
-        {
-            date: '16/12/2014',
-            title: 'Christmas',
-            description: 'Christmas',
-            imgPath: 'images/christmas.jpg'
         }
     ];
 
