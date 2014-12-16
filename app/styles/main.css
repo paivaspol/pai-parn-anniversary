@@ -1,0 +1,146 @@
+/* Customize CSS file. */
+
+/* Import Thai fonts */
+@import url(../fonts/thai-font.css);
+
+/* Override */
+html, body {
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+}
+
+div, p {
+  font-size: 1em;
+}
+
+/* For the heading. */
+.heading {
+  height: 100%;
+  color: white;
+  text-align: center;
+  background: url("../images/index.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.head-line {
+  width: 70%;
+  margin: 32% auto 0px auto;
+  font-size: 5.6em;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.tagline {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.8em;
+}
+
+/** Moments section */
+.moments {
+  background: #E0E0E0 url(../images/noise-100-90-5.png);
+  background-size: 50px 50px;
+}
+
+
+/* Popup section */
+.popup-container {
+  height: 100%;
+  position: relative;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,.85);
+}
+
+@media screen and (orientation:portrait) {
+  .popup {
+    width: 80%;
+  }
+}
+
+@media screen and (orientation:landscape) {
+  .popup {
+    width: 30%;
+  }
+}
+
+.popup{
+  color: white;
+  font-size: 1em;
+  height: 70%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.popup img {
+  width: 100%;
+}
+
+.overlay-title {
+  font-size: 2em;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.overlay-date {
+  font-size: 1.6em;
+  color: gray;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+/* Forever section */
+.forever {
+  height: 80%;
+  color: white;
+  text-align: center;
+  background: url("../images/2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.forever h1 {
+  margin: 40% auto 0px auto;
+}
+
+.message p {
+  font-family: 'book_akhanakeregular', 'Indie Flower', cursive;
+  font-size: 1.6em;
+}
+
+/* Event container */
+.event-row {
+  margin-bottom: 15px;
+}
+
+.event-container {
+  text-align: center;
+}
+
+.event-container img {
+  width: 85%;
+  margin-bottom: 7px;
+}
+
+.event-title {
+  font-family: 'book_akhanakeregular', 'Indie Flower', cursive;
+  font-size: 2.0em;
+  color: black;
+}
+
+.event-date {
+  font-family: 'book_akhanakeregular', 'Indie Flower', cursive;
+  font-size: 1.8em;
+  color: gray;
+}
